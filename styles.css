@@ -21,6 +21,8 @@
 
   display: grid;
   grid-template-rows: 1fr 1fr;
+
+  padding-bottom: 10px;
 }
 
 
@@ -41,6 +43,7 @@
 
 .icon-search {
   height: 85%;
+  cursor: pointer;
 }
 
 #search-bar {
@@ -54,6 +57,7 @@
 .icon-notification {
   height: 25px;
   width: auto;
+  cursor: pointer;
 }
 
 .header-small-profile {
@@ -61,21 +65,65 @@
   width: auto;
   border-radius: 20px;
   margin-left: 18px;
+  cursor: pointer;
 }
 
 .profile-container > p {
   margin-left: 10px;
   font-weight: bold;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 
 /* Lower Header */
 .lower-header {
-  background-color: lightgreen;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.current-user-container {
+  display: flex;
+  gap: 15px;
+}
 
+.header-big-profile {
+  height: 80px;
+  width: auto;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.user-greeting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-greeting-container > p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-greeting-container > h2 {
+  cursor: pointer;
+}
+
+.create-container {
+  display: flex;
+  gap: 25px;
+}
+
+.create-container > button {
+  background-color: #1a92d3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 /* Sidebar */
 .sidebar {
