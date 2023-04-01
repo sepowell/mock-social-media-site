@@ -13,8 +13,8 @@
 }
 
 
-/* Header */
 
+/* Header */
 .header {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -23,15 +23,20 @@
   grid-template-rows: 1fr 1fr;
 }
 
+
+
+/* Upper Header */
 .upper-header {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.search-container {
+.search-container,
+.profile-container {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .icon-search {
@@ -46,17 +51,39 @@
   border: none;
 }
 
+.icon-notification {
+  height: 25px;
+  width: auto;
+}
+
+.header-small-profile {
+  height: 40px;
+  width: auto;
+  border-radius: 20px;
+  margin-left: 18px;
+}
+
+.profile-container > p {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
+/* Lower Header */
 .lower-header {
   background-color: lightgreen;
 }
 
-/* Sidebar */
 
+
+/* Sidebar */
 .sidebar {
   background-color: lightcoral;
   grid-column: 1/2;
   grid-row: 1/3;
 }
+
 
 
 /* Main */
