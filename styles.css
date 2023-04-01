@@ -24,7 +24,26 @@
 }
 
 .upper-header {
-  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-search {
+  height: 85%;
+}
+
+#search-bar {
+  border-radius: 20px;
+  padding: 5px;
+  width: 30vw;
+  background-color: #e2e8f0;
+  border: none;
 }
 
 .lower-header {
