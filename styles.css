@@ -165,16 +165,19 @@
 .dashboard-logo {
   width: 80%;
   height: auto;
+  cursor: pointer;
 }
 
 .dashboard-title {
   font-size: 2.2rem;
   font-family: "tribe";
+  cursor: pointer;
 }
 
 .main-icon {
   height: 25px;
   width: auto;
+  cursor: pointer;
 }
 
 
@@ -273,6 +276,7 @@ main {
   padding: 10px 20px;
   border-left: 5px solid #f0b42a;
   box-shadow: 0px 10px 12px #ccd1d8;
+  cursor: pointer;
 }
 
 .post-container > div {
@@ -291,4 +295,11 @@ main {
 .post-icon {
   height: 18px;
   width: auto;
+}
+
+/* cursor:pointer */
+
+.main-icons-titles-container > p,
+.lower-icons-titles-container > p {
+  cursor: pointer;
 }
